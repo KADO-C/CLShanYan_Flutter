@@ -5,6 +5,9 @@ buildscript {
     repositories {
         google()
         jcenter()
+        maven {
+            url "https://nexus-sdk.cm253.com/repository/maven-public/"
+        }
     }
 
     dependencies {
@@ -33,5 +36,5 @@ android {
     }
 }
 dependencies {
-    api files('libs/shanyan_sdk_v2.3.4.1.jar')
+    implementation 'com.chuanglan.android.sdk:shanyan:2.3.4.3'
 }
