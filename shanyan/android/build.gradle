@@ -3,8 +3,6 @@ version '1.0'
 
 buildscript {
     repositories {
-        google()
-        jcenter()
         maven {
             url "https://nexus-sdk.cm253.com/repository/maven-public/"
         }
