@@ -3,9 +3,8 @@ version '1.0'
 
 buildscript {
     repositories {
-        maven {
-            url "https://nexus-sdk.cm253.com/repository/maven-public/"
-        }
+        google()
+        jcenter()
     }
 
     dependencies {
@@ -17,6 +16,9 @@ rootProject.allprojects {
     repositories {
         google()
         jcenter()
+        maven {
+            url "https://nexus-sdk.cm253.com/repository/maven-public/"
+        }
     }
 }
 
